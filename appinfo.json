@@ -1,0 +1,19 @@
+{
+  "uuid": "b4361ccc-cff7-4ed7-ac8a-6e8ddc781438",
+  "shortName": "n225",
+  "longName": "n225",
+  "companyName": "n225",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "KEY_N225": 0,
+    "KEY_YENDOLLAR": 1
+  },
+  "resources": {
+    "media": []
+  }
+}
