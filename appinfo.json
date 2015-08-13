@@ -10,8 +10,14 @@
     "watchface": true
   },
   "appKeys": {
-    "KEY_N225": 0,
-    "KEY_YENDOLLAR": 1
+    "KEY_N225_PRICE": 0,
+    "KEY_N225_DIFF": 1,
+    "KEY_N225_DIFFPERCENT": 2,
+    "KEY_N225_NP": 3,
+    "KEY_YENDOLLAR_PRICE": 4,
+    "KEY_YENDOLLAR_DIFF": 5,
+    "KEY_YENDOLLAR_DIFFPERCENT": 6,
+    "KEY_YENDOLLAR_NP": 7
   },
   "resources": {
     "media": []
