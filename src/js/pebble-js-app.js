@@ -24,6 +24,10 @@ function getMarketsData() {
       if(json.results[1].Diff.indexOf("-") === -1){
           yendoller = "1";
       }
+      var yeneuro = "0";
+      if(json.results[2].Diff.indexOf("-") === -1){
+          yeneuro = "1";
+      }
       var dictionary = {
         "KEY_N225_PRICE": json.results[0].Price,
         "KEY_N225_DIFF": json.results[0].Diff,
@@ -32,7 +36,11 @@ function getMarketsData() {
         "KEY_YENDOLLAR_PRICE": json.results[1].Price,
         "KEY_YENDOLLAR_DIFF": json.results[1].Diff,
         "KEY_YENDOLLAR_DIFFPERCENT": json.results[1].DiffPercent,
-        "KEY_YENDOLLAR_NP": yendoller
+        "KEY_YENDOLLAR_NP": yendoller,
+        "KEY_YENEURO_PRICE": json.results[2].Price,
+        "KEY_YENEURO_DIFF": json.results[2].Diff,
+        "KEY_YENEURO_DIFFPERCENT": json.results[2].DiffPercent,
+        "KEY_YENEURO_NP": yeneuro,
       };
 
       // Send to Pebble

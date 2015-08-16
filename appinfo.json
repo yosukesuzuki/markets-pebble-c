@@ -17,9 +17,20 @@
     "KEY_YENDOLLAR_PRICE": 4,
     "KEY_YENDOLLAR_DIFF": 5,
     "KEY_YENDOLLAR_DIFFPERCENT": 6,
-    "KEY_YENDOLLAR_NP": 7
+    "KEY_YENDOLLAR_NP": 7,
+    "KEY_YENEURO_PRICE": 8,
+    "KEY_YENEURO_DIFF": 9,
+    "KEY_YENEURO_DIFFPERCENT": 10,
+    "KEY_YENEURO_NP": 11
   },
   "resources": {
-    "media": []
+      "media": [
+          {
+              "characterRegex": "[0-9:/A-Za-z ]",
+              "type": "font",
+              "name": "CUSTOM_FONT_22",
+              "file": "Square.ttf"
+          }
+      ]
   }
 }
