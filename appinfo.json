@@ -3,7 +3,7 @@
   "shortName": "MarketsJP",
   "longName": "MarketsJP",
   "companyName": "YS",
-  "versionLabel": "1.0",
+  "versionLabel": "1.01",
   "sdkVersion": "3",
   "targetPlatforms": ["aplite", "basalt"],
   "watchapp": {
