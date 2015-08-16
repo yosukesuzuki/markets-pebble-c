@@ -3,6 +3,7 @@
   "shortName": "n225",
   "longName": "n225",
   "companyName": "n225",
+  "menuImage": "MENU_IMAGE",
   "versionLabel": "1.0",
   "sdkVersion": "3",
   "targetPlatforms": ["aplite", "basalt"],
@@ -30,6 +31,11 @@
               "type": "font",
               "name": "CUSTOM_FONT_22",
               "file": "Square.ttf"
+          },
+          {
+              "type":"png",
+              "name":"MENU_IMAGE",
+              "file":"n225thumb.png"
           }
       ]
   }
