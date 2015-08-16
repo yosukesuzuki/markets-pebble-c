@@ -1,9 +1,8 @@
 {
   "uuid": "b4361ccc-cff7-4ed7-ac8a-6e8ddc781438",
-  "shortName": "n225",
-  "longName": "n225",
-  "companyName": "n225",
-  "menuImage": "MENU_IMAGE",
+  "shortName": "MarketsJP",
+  "longName": "MarketsJP",
+  "companyName": "YS",
   "versionLabel": "1.0",
   "sdkVersion": "3",
   "targetPlatforms": ["aplite", "basalt"],
@@ -27,15 +26,16 @@
   "resources": {
       "media": [
           {
+              "menuIcon": true,
+              "type": "png",
+              "name": "IMAGE_MENU_ICON",
+              "file": "n225thumb.png"
+          },
+          {
               "characterRegex": "[0-9:/A-Za-z ]",
               "type": "font",
               "name": "CUSTOM_FONT_22",
               "file": "Square.ttf"
-          },
-          {
-              "type":"png",
-              "name":"MENU_IMAGE",
-              "file":"n225thumb.png"
           }
       ]
   }
